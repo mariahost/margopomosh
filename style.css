@@ -1289,7 +1289,7 @@ body {
 }
 
 .about {
-  margin-top: 14rem;
+  margin-top: 10rem;
 }
 
 .about__inner {
@@ -1685,4 +1685,36 @@ body {
 .animate-pulse:hover {
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+}
+
+.section-disclaimer {
+  margin-top: 50px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.disclaimer {
+  background-color: #EDAB85;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 28px;
+  border-radius: 5px;
+}
+
+.disclaimer__icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  opacity: 0.7;
+}
+
+.disclaimer__text {
+  line-height: 20px;
+  color: #222;
+}
+
+.disclaimer__text span {
+  font-weight: 500;
 }
